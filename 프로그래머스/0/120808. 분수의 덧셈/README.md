@@ -1,3 +1,9 @@
+        int[] answer = {totalSon, mother};
+        이렇게 배열 자체 나열할 때 안에 변수 넣어주는 방식 기억할 것.
+
+
+---
+
 # [level 0] 분수의 덧셈 - 120808 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120808) 
