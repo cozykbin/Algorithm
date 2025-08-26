@@ -26,7 +26,7 @@
 
 <p>그리고 슬라임 합성 기술이 아직 완벽하지 않아서 슬라임을 합성할 때마다 크나큰 전기 에너지가 필요해. 구체적으로, A만큼의 슬라임 에너지를 가진 슬라임과 B만큼의 슬라임 에너지를 가진 슬라임을 합성하려면 A × B 만큼의 전기 에너지가 필요해.</p>
 
-<p style="text-align: center;"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/14698/1.png" style="height:314px; width:470px"></p>
+<p style="text-align: center;"><img alt="" src="" style="height:314px; width:470px"></p>
 
 <p style="text-align: center;">에너지가 4인 슬라임과 에너지가 6인 슬라임을 합성한 모습. 4 × 6의 전기 에너지를 사용해 슬라임 에너지가 24인 슬라임이 합성되었다.</p>
 
