@@ -13,10 +13,17 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			toNum[i] = input[i].charAt(0) - '0' - 48;
 		}
+
 		long H = 0;
-		int ch = 0;
+
 		for (int i = 0; i < N; i++) {
-			H += (toNum[i] * Math.pow(31, i));
+			long p = 1;
+			for (int j = 0; j < i; j++) {
+				p *= 31;
+				p %= 1234567891;
+			}
+			H += (toNum[i] * p) % 1234567891;
+
 		}
 		long answer = H % 1234567891;
 		System.out.println(answer);
