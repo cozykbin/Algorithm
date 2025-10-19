@@ -8,16 +8,8 @@ public class Main {
 		int N = Integer.parseInt(in.readLine());
 
 		int cnt5 = 0;
-		int cnt2 = 0;
-
 		for (int i = 1; i <= N; i++) {
 			int num = i;
-			if (num % 2 == 0) {
-				while (num % 2 == 0) {
-					num /= 2;
-					cnt2++;
-				}
-			}
 			if (num % 5 == 0) {
 				while (num % 5 == 0) {
 					num /= 5;
@@ -25,7 +17,6 @@ public class Main {
 				}
 			}
 		}
-		int set = Math.min(cnt5, cnt2);
-		System.out.println(set);
+		System.out.println(cnt5);
 	}
 }
